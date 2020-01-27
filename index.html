@@ -19,7 +19,43 @@
             <a-box position='0 0.5 0' color="yellow"></a-box>
         </a-marker>
 
-        <a-marker id="animated-marker" type='barcode' value='7'>
+        <a-marker id="animated-marker" type='barcode' value='1'>
+            <a-entity
+                animation-mixer
+                gltf-model="#animated-asset"
+                scale="10 10 10"
+                      rotation="0 -90 0">
+            </a-entity>
+        </a-marker>
+            
+        <a-marker id="animated-marker" type='barcode' value='2'>
+            <a-entity
+                animation-mixer
+                gltf-model="#animated-asset"
+                scale="10 10 10"
+                      rotation="0 -90 -90">
+            </a-entity>
+        </a-marker>
+            
+        <a-marker id="animated-marker" type='barcode' value='3'>
+            <a-entity
+                animation-mixer
+                gltf-model="#animated-asset"
+                scale="10 10 10"
+                      rotation="0 0 0">
+            </a-entity>
+        </a-marker>
+            
+        <a-marker id="animated-marker" type='barcode' value='4'>
+            <a-entity
+                animation-mixer
+                gltf-model="#animated-asset"
+                scale="10 10 10"
+                      rotation="0 90 0">
+            </a-entity>
+        </a-marker>
+            
+        <a-marker id="animated-marker" type='barcode' value='5'>
             <a-entity
                 animation-mixer
                 gltf-model="#animated-asset"
@@ -28,6 +64,8 @@
             </a-entity>
         </a-marker>
 
+     
+        </a-marker>
         <a-entity camera></a-entity>
         </a-scene>
     </body>
